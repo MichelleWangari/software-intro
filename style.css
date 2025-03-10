@@ -11,7 +11,7 @@ body{
         text-align: center;
     }
     .navbar {
-        background-color: brown;
+        background-color: blue;
         padding: 15px 0;
     }
     .navbar .container{
@@ -52,6 +52,66 @@ body{
         width: 100%;
         left: 0;
     }
+    /*Styling logo*/
 
+    .logo {
+        font-size: 24px;
+        color: rgb(249, 10, 170);
+        font-weight: bold;
+        text-decoration: none;
+    }
+    /*Styling table*/
+    table{
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
+    /*Styling table header*/
+    th, td {
+        border: 1px solid rgb(0, 0, 0);
+        padding: 10px;
+        text-align: center;
+    }
 
+    th {
+        background: #007bff;
+        color: white;
+    }
+    /*styling form*/
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    input, textarea ,select {
+        padding: 10px;/*padding adds space inside a  container*/
+        border: 1px solid #ccc;
+        border-radius: 4px;/*round corners of an input field*/
+        width: 50%;
+    }
+    .radio-group, .checkbox-group {
+        display: flex;
+        gap: 5px;
+    }
+    button {
+        padding: 8px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+        width: 20%;
+    }
+    
+    button:hover {
+        background: rgb(235, 65 ,68);
 
+    }
+    footer {
+        text-align: center;
+        background: #007bff;
+        color: white;
+        padding: 10px;
+    }
